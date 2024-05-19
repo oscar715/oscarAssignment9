@@ -1,0 +1,22 @@
+[
+    {
+		"prompt": "What is the full name of <span>EdUHK</span>",
+		"answer": "The Education University of Hong Kong",
+		"link": "https://eduhk.hk"
+	},
+    {
+		"prompt": "What is the best way to enter Cantonese characters on your mobile phone?",
+		"answer": "<span>TypeDuck</span> is a Cantonese input method that allows you to type characters based on standard Jyutping spelling. It also provides multilingual prompts that help you choose the right words from the homophones!",
+		"link": "https://typeduck.hk"
+	},
+    {
+		"prompt": "How many tones are there in Cantonese?",
+		"answer": "6",
+		"link": "https://lshk.org/jyutping-scheme"
+	},
+    {
+		"prompt": "What does STPHET mean?",
+		"answer": "internet",
+		"link": "#"
+	}
+]

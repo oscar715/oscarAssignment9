@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test</title>
+
+    <!-- Link to CSS -->
+    <link rel="stylesheet" href="./resources/css/styles.css">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="./favicon.png">
+</head>
+<body>
+    <main>
+        <section id="index"><!-- function buildIndex() --></section>
+        <section id="content">
+            <header>
+                <h1>Flashcards Demo <span>for non-programmers</span></h1>
+            </header>
+            <section id="flashcards">
+                <button id="prev"aria-label="previous"></button>
+                <div id="card">
+                    <div class="facing front"></div>
+                    <div class="facing back"></div>
+                </div>
+                <button id="next" aria-label="next"></button>
+            </section>
+            <div id="count"></div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy;<span id="currentYear"></span> Avalynn Circe (Heavily edited by Chaak-ming Lau)</p>
+    </footer>
+
+    <!-- JavaScript source file -->
+    <script src="./resources/js/main.js"></script>
+</body>
+</html>
