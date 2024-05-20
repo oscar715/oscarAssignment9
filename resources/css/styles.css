@@ -210,6 +210,11 @@ li.active-link div::before {
   opacity: 0;
 }
 
+.back span{
+  color: grey;
+  font-weight: 500;
+}
+
 
 .back,
 .back p {
@@ -219,6 +224,8 @@ li.active-link div::before {
 .back p.prompt {
   color: grey;
 }
+
+
 
 .front, .back {
   -webkit-backface-visibility: hidden;
