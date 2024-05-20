@@ -96,6 +96,8 @@ function buildCard(index) {
   <div class='line'><audio controls><source src='resources/audio/${prefix}.mp3' type='audio/mpeg'></audio><br/></div>
   <div class='line'><img src='resources/img/${prefix}.png'></img></div>`;
   back.innerHTML = `
+  <h1 class='card_number'>Q.${question_number}</h1>
+  <div class='line'><p class='prompt'>${note.prompt}</p></div>
   <p class='answer'>${note.answer}</p>
   <p class='reference'><a href="${note.link}" target="_blank">reference</a></p>
   <div class='line'>${Buttonwrap(prefix + '_good', '<span class="emoji_button">👌</span>')} ← <b>${Counter('counter_good', prefix + '_good')}</b></div>
