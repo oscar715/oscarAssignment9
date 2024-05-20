@@ -187,6 +187,11 @@ li.active-link div::before {
   font-weight: 500;
 }
 
+.back facing span {
+  color: grey;
+  font-weight: 500;
+}
+
 .front {
   display: block;
   background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
